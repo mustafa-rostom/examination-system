@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body {
+    background: #dad7cd;
+    font-family: "Roboto", sans-serif;
+}
+
+.exam-page {
+    display: grid;
+    height: 92vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 12fr 1fr;
+    gap: 8px;
+}
+
+
+progress {
+    width: 100%;
+    height: 3vh;
+    align-self: flex-end;;
+    background-color: #588157;
+}
+
+#submit {
+    margin-top: 5px;
+    background-color: #588157;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    height: 5vh;
+}
+
+#submit:hover {
+    background-color: #446145;
+    cursor: pointer;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 85vh;
+}
+
+.questions {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgb(231, 226, 231);
+}
+
+.questions h1 {
+    font-size: 50px;
+}
+
+.answers {
+    align-self: center;
+    justify-self: center;
+    font-size: 18px;
+}
+
+.answers div {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 20px;
+    background-color: #a3b18a;
+}
+
+.answers div input {
+    background:#a3b18a;
+    float: right;
+}
+
+#marked {
+    background-color: #588157;
+    /* overflow: scroll; */
+}
+
+.marked-question {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.marked-question .qTitle {
+    height: 50px;
+    width: 90%;
+    margin-top: 5px;
+    background-color: #a3b18a;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    border: none;
+    align-self: center;
+    justify-self: center;
+}
+
+.buttons {
+    align-self: flex-end;
+    margin-bottom: 20px;
+    justify-self: center;
+}
+
+.buttons span {
+    display: inline-block;
+    background-color: #588157;
+    color: white;
+    font-weight: bold;
+    padding: 13px;
+}
+
+.buttons input {
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.buttons input:hover {
+    background-color: #588157;
+}
+
+#mark {
+    background-color: #588157;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+#mark:hover {
+    background-color: #48834b;
+}
+.radio{
+    accent-color: #43A047;
+}
